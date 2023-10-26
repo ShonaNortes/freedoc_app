@@ -1,24 +1,15 @@
-# README
+# Freedoc
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Freedoc est une application de gestion des rendez-vous médicaux qui permet aux patients de prendre des rendez-vous avec des médecins dans différentes spécialités. L'application facilite la gestion des rendez-vous pour les médecins et offre aux patients la possibilité de prendre des rendez-vous en ligne de manière pratique et efficace.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Assurez-vous d'avoir Ruby installé sur votre système. Clonez le dépôt GitHub, puis exécutez les commandes suivantes :
 
-* System dependencies
+bundle install
+rails db:migrate
+rails db:seed
 
-* Configuration
 
-* Database creation
+Cela installera toutes les dépendances requises, exécutera les migrations de la base de données et peuplera la base de données avec des données de test.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
